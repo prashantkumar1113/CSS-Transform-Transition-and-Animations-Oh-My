@@ -4,3 +4,20 @@ button {
 button:hover {
     color: #fff;
 }
+.caption {
+    width: 60%;
+    transform: translateY(-120px);
+}
+.caption img {
+    width: 100%;
+}
+.caption > div {
+    margin-left: 10px;
+    color: #fff;
+    text-align: left;
+    transform: translateY(520%);
+    transition: 3s;
+}
+.caption > div:hover {
+    transform: translateY(130%);
+}
